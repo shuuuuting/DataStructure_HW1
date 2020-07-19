@@ -1,1 +1,2 @@
-# DataStructure_HW1
+## DataStructure_HW1
+### concept: pointer
