@@ -1,0 +1,27 @@
+﻿Build started 2017/9/30 下午 06:52:45.
+Project "C:\Users\tink1\Desktop\demo\student.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Release\student.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt process.cpp
+  process.cpp
+process.cpp(12): warning C4101: 'temp3' : unreferenced local variable
+process.cpp(12): warning C4101: 'temp1' : unreferenced local variable
+process.cpp(12): warning C4101: 'temp2' : unreferenced local variable
+process.cpp(9): warning C4101: 'sum' : unreferenced local variable
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tink1\Desktop\demo\Release\student.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\student.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\tink1\Desktop\demo\Release\student.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tink1\Desktop\demo\Release\student.lib" /MACHINE:X86 Release\main.obj
+  Release\process.obj
+  Generating code
+  Finished generating code
+  student.vcxproj -> C:\Users\tink1\Desktop\demo\Release\student.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\tink1\Desktop\demo\Release\student.exe;#1" /manifest Release\student.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Release\student.unsuccessfulbuild".
+  Touching "Release\student.lastbuildstate".
+Done Building Project "C:\Users\tink1\Desktop\demo\student.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79
